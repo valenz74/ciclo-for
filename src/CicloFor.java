@@ -1,0 +1,15 @@
+public class CicloFor {
+    public static void main(String[] args) {
+        /*
+            for(inicializacion; expresion booleana ; incremento) {
+                sentencia;
+            }
+            -- Break
+            -- Continue
+         */
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+            System.out.println("Valor de i : " + i);
+    }
+}
